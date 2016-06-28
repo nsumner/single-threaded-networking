@@ -1,0 +1,16 @@
+
+add_library(networking
+  Server.cpp
+  Client.cpp
+)
+
+set_target_properties(networking
+                      PROPERTIES
+                      LINKER_LANGUAGE CXX
+                      PREFIX ""
+)
+
+install(TARGETS networking
+  ARCHIVE DESTINATION lib
+)
+
