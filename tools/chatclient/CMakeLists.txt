@@ -7,6 +7,7 @@ add_executable(chatclient
 set_target_properties(chatclient
                       PROPERTIES
                       LINKER_LANGUAGE CXX
+                      CXX_STANDARD 14
                       PREFIX ""
 )
 

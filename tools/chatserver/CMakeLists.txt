@@ -10,6 +10,7 @@ target_link_libraries(chatserver
 set_target_properties(chatserver
                       PROPERTIES
                       LINKER_LANGUAGE CXX
+                      CXX_STANDARD 14
                       PREFIX ""
 )
 

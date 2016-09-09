@@ -7,6 +7,7 @@ add_library(networking
 set_target_properties(networking
                       PROPERTIES
                       LINKER_LANGUAGE CXX
+                      CXX_STANDARD 14
                       PREFIX ""
 )
 
